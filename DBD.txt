@@ -1,0 +1,99 @@
+CTE_FactInternetSales
+--
+ProductKey int FK >- CTE_DimProduct.ProductKey
+OrderDateKey int FK >- CTE_DimDate.DateKey
+DueDateKey int FK >- CTE_DimDate.DateKey
+ShipDateKey int FK >- CTE_DimDate.DateKey
+CustomerKey int FK >- CTE_DimCustomer.CustomerKey
+PromotionKey int				
+CurrencyKey int			
+SalesTerritoryKey int				
+SalesOrderNumber nvarchar(20)				
+SalesOrderLineNumber tinyint			
+UnitPrice money				
+TotalProductCost money				
+SalesAmount money				
+TaxAmt money				
+Freight money				
+OrderDate date			
+DueDate datet				
+ShipDate date	
+ShipStatus nvarchar(5)
+TimeToArrive tinyint
+
+
+CTE_DimDate
+--
+DateKey int
+FullDateAlternateKey datetime
+DayNumberOfWeek tinyint
+EnglishDayNameOfWeek nvarchar(15)
+DayNumberOfMonth tinyint
+DayNumberOfYear int
+WeekNumberOfYear int
+MonthNumberOfYear tinyint
+MonthName nvarchar(15)
+CalendarQuarter tinyint
+CalendarYear int
+CalendarSemester tinyint
+FiscalYear int
+FiscalQuarter tinyint
+FiscalSemester tinyint
+
+CTE_DimProduct
+-- 
+ProductKey int
+ProductAlternateKey nvarchar(25)
+ProductName nvarchar(50)
+CategoryName nvarchar(50)
+SubcategoryName nvarchar(50)
+ModelName nvarchar(50)
+SafetyStockLevel smallint
+ReorderPoint smallint
+Color nvarchar(15)
+SizeRange nvarchar(10)
+Weight float
+
+CTE_DimCustomer
+-- 
+CustomerKey int
+GeographyKey int
+FirstName nvarchar(50)
+LastName nvarchar(50)
+BirthDate datetime
+Age int
+Gender nchar(1)
+Education nvarchar(40)
+Occupation nvarchar(40)
+YearlyIncome money
+TotalChildren tinyint
+NumberChildrenAtHome tinyint
+NumberCarsOwned tinyint
+DateFirstPurchase datetime
+CommuteDistance nvarchar(15)
+
+
+CTE_DimPromotion
+--
+PromotionKey int FK >- CTE_FactInternetSales.PromotionKey
+PromotionAlternateKey nvarchar(50)
+PromotionName nvarchar(255)
+PromotionType nvarchar(50)
+PromotionCategory nvarchar(50)
+DiscountPct float
+StartDate date
+EndDate date
+MinQty smallint
+MaxQty smallint
+
+CTE_DimSales
+--
+SalesOrderNumber nvarchar(20) FK >- CTE_FactInternetSales.SalesOrderNumber
+SalesOrderLineNumber tinyint
+SalesReasonKey int
+SalesReasonName nvarchar(50)
+SalesReasonReasonType nvarchar(50)
+
+
+
+
