@@ -12,9 +12,6 @@ This analytics project aims to boost AdventureWorks Cycles' revenue by analyzing
 ## About AdventureWorks Cycles
 AdventureWorks Cycles, headquartered in Bothell, Washington, is a major multinational manufacturer of metal and composite bicycles. With a strong presence in North America, Europe, and Asia, the company employs 500 individuals and strategically deploys regional sales teams to serve its diverse market base.
 
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/677fbdee-9968-4ad1-b424-100208ade77e)
-
-
 ## Tools
 **Tools used:** 
 * SQL Server
@@ -22,7 +19,7 @@ AdventureWorks Cycles, headquartered in Bothell, Washington, is a major multinat
 * Azure Data Studio
 * PowerBI
 ## Appendix
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/f51e16de-879d-4317-9ba5-f6cb0101cd85)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/f7149c5f24f2335421ef95332ff530d23ae95d75/Appendix.png)
 * **a. Data Cleaning and Transformation:** (SQL Server)
   * Assumptions
   * Transformation
