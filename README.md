@@ -1,5 +1,7 @@
 # Adventurework-Comprehensive-Analytics
 
+
+
 **Please download the HTML version of the Jupiter Notebook to interact with the Chart**
 
 # General Overview
@@ -12,6 +14,7 @@ This analytics project aims to boost AdventureWorks Cycles' revenue by analyzing
 ## About AdventureWorks Cycles
 AdventureWorks Cycles, headquartered in Bothell, Washington, is a major multinational manufacturer of metal and composite bicycles. With a strong presence in North America, Europe, and Asia, the company employs 500 individuals and strategically deploys regional sales teams to serve its diverse market base.
 
+
 ## Tools
 **Tools used:** 
 * SQL Server
@@ -19,7 +22,7 @@ AdventureWorks Cycles, headquartered in Bothell, Washington, is a major multinat
 * Azure Data Studio
 * PowerBI
 ## Appendix
-![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/f7149c5f24f2335421ef95332ff530d23ae95d75/Appendix.png)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/Appendix.png)
 * **a. Data Cleaning and Transformation:** (SQL Server)
   * Assumptions
   * Transformation
@@ -55,7 +58,7 @@ AdventureWorks Cycles, headquartered in Bothell, Washington, is a major multinat
     * Introduce new calculated columns, including Profit, Profit Margin, ShipStatus, TimeToArrive, TimeToShip, Model Name, and Customer Age for enhanced analytical insights.
      
   * **New Star Schema:**
-     ![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/ea06b28f-57af-4e2f-8ca8-ea94243f9495) 
+     ![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/data_transformation.png) 
 
 ## b. Descriptive Analysis
 ### 1. Key Metrics
@@ -68,7 +71,7 @@ AdventureWorks Cycles, headquartered in Bothell, Washington, is a major multinat
 ### 2. Time Series Analysis (Only 2011, 2012, 2013, Exclude Dec 2010 and Jan 2014)
 * **Yearly**
 
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/ea6be652-d5bf-4c36-aebe-c8fb8c1c5147)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/yearly_chart.png)
 
     - 2011: 7 Millions
     - 2012: 6 Millions
@@ -77,13 +80,13 @@ AdventureWorks Cycles, headquartered in Bothell, Washington, is a major multinat
   
 * **Monthly**
 
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/7d7a5735-85c7-4e03-8e73-9160c59b46b1)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/monthly_chart.png)
 
     - Best: June, October, November, December
     - Worst: January, February, April
 
 ### 3. Product Analysis
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/66a535a2-e9bf-4911-b4be-287b10ce355a)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/product_analysis.png)
 
 *  **Overview**
    - **Bikes:** 95% Profits
@@ -95,7 +98,7 @@ AdventureWorks Cycles, headquartered in Bothell, Washington, is a major multinat
 
 
 ### 4. Customer Analysis
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/b7a44326-7ec2-47e6-adaa-62aec3a8b220)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/customer_analysis.png)
 
 * **Education:** Bachelors, Graduate and Partial College
 * **Occupation:** Professional, Management, and Skill Manual
@@ -110,7 +113,7 @@ AdventureWorks Cycles, headquartered in Bothell, Washington, is a major multinat
 - Touring Bikes was introduced (Generating 3.7 million dollars).
 
 ### 6. Geographical Dashboard
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/82375fb2-1279-4c0f-8b11-8914918599ae)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/geo_dashboard.png)
 
 Here are the best current markets for the Model 200
 - Top Country: USA, Australia, United Kingdom
@@ -118,7 +121,7 @@ Here are the best current markets for the Model 200
 - Top City: London, Paris, Bendigo, Wollongong, Berlin
 
 ### 7. Demographic Dashboard
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/13c3baae-47fd-400e-a3a4-ee689acf097e)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/demo_dashboard.png)
 
 Here are the current demographic needs for the Model 200
 - Education: Bachelors, Graduate and Partial College
@@ -134,13 +137,13 @@ Here are the current demographic needs for the Model 200
 
 ## d. Predictive Analysis:
 ### 9. Trendline
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/75555e76-62dc-40f4-b5f3-366fe8d7502a)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/trendline.png)
 
 ### 10. ARIMA Model
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/91b0cb94-0d52-4291-bf04-baeb1c312e7d)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/arima_model.png)
 
 ### 11. LSTM model
-![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/9dd736d6-5894-432c-91cb-5d211d450192)
+![image](https://github.com/jessicabui0110/Adventurework-Comprehensive-Analytics/blob/9474961bbbaad5838db15801e0254100255ece64/lstm_model.png)
 
 
 
@@ -151,8 +154,6 @@ Here are the current demographic needs for the Model 200
     
 3. **Using that budget to create a marketing campaign to tap into a new market for Model 200**
    * **Location:** Appalachian Mountains
-   * **Criteria:**
-   ![image](https://github.com/MarkPhamm/Adventureworks-Analytics/assets/99457952/eb253e0f-59e6-4612-b662-d1c0ba24612d)
    * **Suggestions**
      - Virginia (Roanoke)
      - West Virginia (Morgantown)
